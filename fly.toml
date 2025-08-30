@@ -1,0 +1,10 @@
+app = "zamzovi25"  # ganti dengan nama unik (harus kecil, tanpa spasi)
+kill_signal = "SIGINT"
+kill_timeout = 5
+processes = []
+
+[env]
+PORT = "8080"
+
+[build]
+  image = "python:3.11"  # pakai image python dasar
